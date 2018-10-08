@@ -4,9 +4,6 @@
  * contains no characters from s2.
  * */
 
-// TODO: Write function to sort string characters in alphabetical order then binary 
-// search char
-
 #include <stdio.h>
 
 int any(char s1[], char s2[]);
@@ -14,8 +11,8 @@ int indexof(char s[], char c);
 
 /* test any */
 int main() {
-  char s1[] = "abcdef";
-  char s2[] = "def";
+  char s1[] = "swagger";
+  char s2[] = "on a hundred million";
   printf("%d\n", any(s1, s2));
 
   return 0;
